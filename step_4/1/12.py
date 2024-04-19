@@ -10,7 +10,7 @@
 # -22
 # 1
 # Sample Output 1:
-# 5
+# step_5
 # РЕШЕНИЕ ТОЛЬКО С if, без ветвления
 a = int(input())
 b = int(input())
