@@ -1,13 +1,11 @@
-a = 256
-b = 257
-print(id(a), id(b))
+SIZE = 10
 
-a += 1
-print(id(a), id(b))
 
-a = -256
-b = -256
-print(id(a), id(b))
+def func(a, b, c):
+	x = a + b
+	print(locals())
+	z = x + c
+	return z
 
-# a -= 1
-# print(id(a), id(b))
+
+func(1, 2, 3)
