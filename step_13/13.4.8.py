@@ -1,6 +1,7 @@
+# Делители 1
 # объявление функции
 def get_factors(num):
-    return len[i for i in range(1, num + 1) if num % i == 0]
+    return [i for i in range(1, num + 1) if num % i == 0]
 
 
 # считываем данные
