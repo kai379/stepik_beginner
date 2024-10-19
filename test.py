@@ -1,3 +1,1 @@
-import math
-n = int(input())
-print(int((math.log(n, 2))) + 1)
+print(0%4)
