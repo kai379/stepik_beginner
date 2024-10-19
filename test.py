@@ -1,3 +1,6 @@
-# 32 + 22 + 16 + 17 = 88
+a = 1
 
-3 * n ** 1 + 2 * n ** 0 + 2 * n ** 1
+def do_something():
+    print(a)
+
+do_something()
